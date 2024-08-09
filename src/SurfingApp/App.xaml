@@ -5,6 +5,8 @@
              x:Class="SurfingApp.App">
     <Application.Resources>
         <ResourceDictionary>
+            <converters:ToUpperConverter x:Key="ToUpperConverter" />
+            
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
